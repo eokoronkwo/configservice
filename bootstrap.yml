@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: authorservice
+  datasource:
+    username: eokoronkwo
+    password: 509Ramen
+    url: jdbc:postgresql://classdb.cx2r6eyrnrrn.us-east-2.rds.amazonaws.com:5432/${app.db}
+  jpa:
+    hibernate:
+      ddl-auto: update
